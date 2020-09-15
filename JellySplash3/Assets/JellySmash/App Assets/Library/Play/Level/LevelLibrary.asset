@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6773689080ccfe547bfc9a80a43d1683, type: 3}
+  m_Name: LevelLibrary
+  m_EditorClassIdentifier: 
+  GridPrefab: {fileID: 1190428170085670, guid: 3f1391a19a96e93499159fc900cd6617, type: 2}
+  LineRenderer: {fileID: 1242399750301374, guid: cdbdbb53618ace04bac9598d1b74be67,
+    type: 2}
+  Levels:
+  - Name: 1
+    GridSize:
+      Row: 5
+      Column: 5
+    IsAllJelliesAllowed: 0
+    JellyAllowed: 000000000100000002000000
+    TargetScore: 6000
+  - Name: 2
+    GridSize:
+      Row: 5
+      Column: 6
+    IsAllJelliesAllowed: 0
+    JellyAllowed: 030000000200000001000000
+    TargetScore: 9000
+  - Name: 3
+    GridSize:
+      Row: 6
+      Column: 6
+    IsAllJelliesAllowed: 0
+    JellyAllowed: 000000000300000004000000
+    TargetScore: 12000
+  - Name: 4
+    GridSize:
+      Row: 7
+      Column: 5
+    IsAllJelliesAllowed: 0
+    JellyAllowed: 00000000010000000200000003000000
+    TargetScore: 16000
+  - Name: 5
+    GridSize:
+      Row: 9
+      Column: 9
+    IsAllJelliesAllowed: 1
+    JellyAllowed: 
+    TargetScore: 20000
+  - Name: 6
+    GridSize:
+      Row: 8
+      Column: 8
+    IsAllJelliesAllowed: 1
+    JellyAllowed: 
+    TargetScore: 22000
